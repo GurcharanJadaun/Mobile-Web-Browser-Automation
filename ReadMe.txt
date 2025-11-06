@@ -57,3 +57,7 @@ Tips:
 
 All default test cases are tagged with @Regression.
 Ensure TestPlan.xlsx references valid feature file names and tags.
+Forb mobile Configuration is done for Chrome browser (Android devices).
+
+Upcoming :
+1. Working on IOS device (browser support). 
