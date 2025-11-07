@@ -45,13 +45,10 @@ bashmvn clean install exec:java@run-tests \
   -DtestEnv=<Test URL config name> \
   -DdeviceConfig=<Device Configuration name> \
   -DtestCaseTags="<Tags from feature files (default: @Regression)>" \
-  -DtestPlanTags="<Tags to filter test plan entries>"
+  -DtestPlanTags="<Tags to filter test plan entries>" \
+  -DtargetDevice="<Tag to target web or mobile tests>"
 Example:
-bashmvn clean install exec:java@run-tests \
-  -DtestEnv=staging \
-  -DdeviceConfig=chrome-desktop \
-  -DtestCaseTags="@Smoke" \
-  -DtestPlanTags="@Priority1"
+bash mvn clean install exec:java@run-tests -DtestEnv=staging -DdeviceConfig=chrome-desktop -DtestCaseTags="@Smoke" -DtestPlanTags="@Priority1" -DtargetDevice="Mobile"
 
 Tips:
 
