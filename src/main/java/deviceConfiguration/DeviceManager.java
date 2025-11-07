@@ -93,7 +93,6 @@ public class DeviceManager {
 				 JsonNode item = it.next();
 				 apps.add(new AppConfig(item, i));
 				 i++;
-				 
 			 }
 			
 		}else {
