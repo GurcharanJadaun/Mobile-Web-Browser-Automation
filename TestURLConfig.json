@@ -1,5 +1,5 @@
 {
-	"Product": {
-		"Base Url": ""
+	"TestEnv": {
+		"Base Url": "https://demo.guru99.com/"
 	}
 }

@@ -30,7 +30,7 @@ public class RunTests {
 	public static void main(String args[]) {
 		Instant start = Instant.now();
 		TestSuiteLoader loadTests= new TestSuiteLoader();
-		String urlConfig = System.getProperty("testEnv","Product");
+		String urlConfig = System.getProperty("testEnv","TestEnv");
 		String deviceConfig = System.getProperty("deviceConfig","TestRunner");
 		String testCaseTags = System.getProperty("testCaseTags","@Regression");
 		String testPlanTags = System.getProperty("testPlanTags","@Debug");
