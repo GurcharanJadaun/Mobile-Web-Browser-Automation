@@ -88,6 +88,7 @@
 								<argument>-DdeviceConfig=${deviceConfig}</argument>
 								<argument>-DtestCaseTags=${testCaseTags}</argument>
 								<argument>-DtestPlanTags=${testPlanTags}</argument>
+								<argument>-DtargetDevice=${targetDevice}</argument>
 							</arguments>
 						</configuration>
 					</execution>
