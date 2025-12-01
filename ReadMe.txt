@@ -1,4 +1,4 @@
-
+Purpose Of Project: To gain Insight on building frameworks from scratch
 Requirement,Version / Notes
 Java JDK,17 or higher
 Maven,3.6+
